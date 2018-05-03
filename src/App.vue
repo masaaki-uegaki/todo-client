@@ -30,7 +30,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import Navbar from "@/components/mdbootstrap/Navbar.vue";
 import NavbarItem from "@/components/mdbootstrap/NavbarItem.vue";
 import NavbarNav from "@/components/mdbootstrap/NavbarNav.vue";
