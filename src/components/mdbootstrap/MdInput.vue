@@ -22,7 +22,7 @@
 
 import classNames from "classnames";
 import "font-awesome/css/font-awesome.min.css";
-import waves from "../../mixins/waves";
+import waves from "./mixins/waves";
 
 export default {
   props: {

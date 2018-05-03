@@ -40,7 +40,7 @@ import Dropdown from "@/components/mdbootstrap/Dropdown.vue";
 import DropdownItem from "@/components/mdbootstrap/DropdownItem.vue";
 import DropdownMenu from "@/components/mdbootstrap/DropdownMenu.vue";
 import DropdownToggle from "@/components/mdbootstrap/DropdownToggle.vue";
-import drop from "@/mixins/drop";
+import drop from "@/components/mdbootstrap/mixins/drop";
 import Mdinput from "@/components/mdbootstrap/MdInput.vue";
 
 export default {

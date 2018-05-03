@@ -15,7 +15,7 @@
 //
 
 import classNames from "classnames";
-import waves from "../../mixins/waves";
+import waves from "./mixins/waves";
 
 export default {
   props: {
