@@ -6,6 +6,7 @@ import './registerServiceWorker';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'mdbootstrap/css/mdb.css';
+import './components/mdbootstrap/Waves.css';
 
 Vue.config.productionTip = false;
 
