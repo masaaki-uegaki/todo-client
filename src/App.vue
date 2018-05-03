@@ -4,7 +4,7 @@
     <navbar position="top" class="indigo navbar-dark" name="ToDo" to="/" scrolling>
       <navbar-collapse>
         <navbar-nav>
-          <navbar-item to="/" active waves-fixed>Home</navbar-item>
+          <navbar-item to="/" exact waves-fixed>Home</navbar-item>
           <navbar-item to="/about" waves-fixed>About</navbar-item>
           <navbar-item to="/tasks" waves-fixed>Tasks</navbar-item>
           <!-- Dropdown -->

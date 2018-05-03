@@ -1,6 +1,6 @@
 <template>
   <li :is="tag" :class="[className, {'ripple-parent': waves}]" @click="wave">
-    <router-link :to="to" class="nav-link"><slot></slot></router-link>
+    <router-link :to="to" class="nav-link" :exact="exact"><slot></slot></router-link>
   </li>
 </template>
 
@@ -36,6 +36,10 @@ export default {
     wavesFixed: {
       type: Boolean,
       default: false
+    },
+    exact: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
@@ -48,5 +52,8 @@ export default {
 </script>
 
 <style scoped>
-
+.navbar.navbar-dark .breadcrumb .nav-item > .nav-link.router-link-active,
+.navbar.navbar-dark .navbar-nav .nav-item > .nav-link.router-link-active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
 </style>
