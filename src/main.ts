@@ -4,6 +4,9 @@ import router from './router';
 import store from './store';
 import './registerServiceWorker';
 
+import 'bootstrap/dist/css/bootstrap.css';
+import 'mdbootstrap/css/mdb.css';
+
 Vue.config.productionTip = false;
 
 new Vue({
