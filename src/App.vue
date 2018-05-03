@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!--Navbar-->
-    <navbar position="top" class="indigo navbar-dark" name="ToDo" href="/" scrolling>
+    <navbar position="top" class="indigo navbar-dark" name="ToDo" to="/" scrolling>
       <navbar-collapse>
         <navbar-nav>
           <navbar-item to="/" active waves-fixed>Home</navbar-item>
